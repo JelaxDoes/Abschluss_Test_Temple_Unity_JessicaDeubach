@@ -4,10 +4,31 @@ using UnityEngine;
 
 public class Riddle2 : MonoBehaviour
 {
-    public GameObject redOrb;
-    public GameObject orangeOrb;
-    public GameObject yellowOrb;
-    public GameObject greenOrb;
-    public GameObject blueOrb;
-    public GameObject purpleOrb;
+    public Material defaultMaterial;
+    public Material originalMaterial;
+    private Renderer objectRenderer;
+    private bool isdefaultMaterial = false;
+
+    private void Start()
+    {
+        objectRenderer = GetComponent<MeshRenderer>();
+    }
+
+    void OnMouseDown()
+    {
+        if (isdefaultMaterial)
+        {
+            objectRenderer.material = originalMaterial;
+            isdefaultMaterial = false;
+            Debug.Log("Licht an");
+        }
+        else
+        {
+            objectRenderer.material = defaultMaterial;
+            isdefaultMaterial = true;
+            Debug.Log("Licht aus");
+        }
+    }
+
+
 }

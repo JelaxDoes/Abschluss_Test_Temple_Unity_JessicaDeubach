@@ -561,6 +561,7 @@ GameObject:
   - component: {fileID: 496609804}
   - component: {fileID: 496609803}
   - component: {fileID: 496609802}
+  - component: {fileID: 496609805}
   m_Layer: 0
   m_Name: orb yellow
   m_TagString: Untagged
@@ -654,6 +655,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496609800}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &496609805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496609800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e482823846d720e46887f0694c328af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultMaterial: {fileID: 2100000, guid: 80c4a14ac0d013c448f6c629acae9dc7, type: 2}
+  originalMaterial: {fileID: 2100000, guid: 268e54ded231aff44a4b5916b43ab641, type: 2}
 --- !u!1 &609353067
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,12 +997,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e482823846d720e46887f0694c328af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  redOrb: {fileID: 0}
-  orangeOrb: {fileID: 0}
-  yellowOrb: {fileID: 0}
-  greenOrb: {fileID: 0}
-  blueOrb: {fileID: 0}
-  purpleOrb: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  originalMaterial: {fileID: 0}
 --- !u!4 &765681905
 Transform:
   m_ObjectHideFlags: 0
@@ -1138,6 +1149,7 @@ GameObject:
   - component: {fileID: 881231788}
   - component: {fileID: 881231787}
   - component: {fileID: 881231786}
+  - component: {fileID: 881231789}
   m_Layer: 0
   m_Name: orb red
   m_TagString: Untagged
@@ -1231,6 +1243,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881231784}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &881231789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881231784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e482823846d720e46887f0694c328af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultMaterial: {fileID: 2100000, guid: 80c4a14ac0d013c448f6c629acae9dc7, type: 2}
+  originalMaterial: {fileID: 2100000, guid: 350529df8da4b1d4d85269eb6c0cbbff, type: 2}
 --- !u!1 &931381421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1269,7 @@ GameObject:
   - component: {fileID: 931381425}
   - component: {fileID: 931381424}
   - component: {fileID: 931381423}
+  - component: {fileID: 931381426}
   m_Layer: 0
   m_Name: orb orange
   m_TagString: Untagged
@@ -1336,6 +1363,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 931381421}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &931381426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931381421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e482823846d720e46887f0694c328af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultMaterial: {fileID: 2100000, guid: 80c4a14ac0d013c448f6c629acae9dc7, type: 2}
+  originalMaterial: {fileID: 2100000, guid: 6f06373880e883046a75e37a72d82b28, type: 2}
 --- !u!1 &1058238378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,6 +1558,7 @@ GameObject:
   - component: {fileID: 1077069041}
   - component: {fileID: 1077069040}
   - component: {fileID: 1077069039}
+  - component: {fileID: 1077069042}
   m_Layer: 0
   m_Name: orb green
   m_TagString: Untagged
@@ -1610,6 +1652,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077069037}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1077069042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077069037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e482823846d720e46887f0694c328af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultMaterial: {fileID: 2100000, guid: 80c4a14ac0d013c448f6c629acae9dc7, type: 2}
+  originalMaterial: {fileID: 2100000, guid: a9a058844619a4b43b7fac1423abb5da, type: 2}
 --- !u!1 &1304117123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,6 +2761,7 @@ GameObject:
   - component: {fileID: 1771479809}
   - component: {fileID: 1771479808}
   - component: {fileID: 1771479807}
+  - component: {fileID: 1771479810}
   m_Layer: 0
   m_Name: orb purple
   m_TagString: Untagged
@@ -2798,6 +2855,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771479805}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1771479810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771479805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e482823846d720e46887f0694c328af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultMaterial: {fileID: 2100000, guid: 80c4a14ac0d013c448f6c629acae9dc7, type: 2}
+  originalMaterial: {fileID: 2100000, guid: a680fb653fbf6fc408c94a6e5e2d02f5, type: 2}
 --- !u!1 &1825286332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3224,6 +3295,7 @@ GameObject:
   - component: {fileID: 1982584342}
   - component: {fileID: 1982584341}
   - component: {fileID: 1982584340}
+  - component: {fileID: 1982584343}
   m_Layer: 0
   m_Name: orb blue
   m_TagString: Untagged
@@ -3317,6 +3389,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982584338}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1982584343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982584338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e482823846d720e46887f0694c328af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultMaterial: {fileID: 2100000, guid: 80c4a14ac0d013c448f6c629acae9dc7, type: 2}
+  originalMaterial: {fileID: 2100000, guid: dce4e5c09c5128a478e0c720d89a1465, type: 2}
 --- !u!1 &2054407082
 GameObject:
   m_ObjectHideFlags: 0
