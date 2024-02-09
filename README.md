@@ -2,4 +2,4 @@
 
 ## Ablauf
 
-![gif1](Movie_003.gif)
+![gif1](Recordings/Movie_003.gif)
